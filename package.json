@@ -9,7 +9,7 @@
     "start": "next start",
     "lint": "next lint",
     "predeloy": "npm run build",
-    "deloy": "gh-pages -d dist"
+    "deloy": "gh-pages -d build"
   },
   "dependencies": {
     "lucide-react": "^0.536.0",

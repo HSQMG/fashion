@@ -24,7 +24,7 @@ const faqItems: FaqItem[] = [
           page.
         </p>
         <p>
-          You don't need to pay customs duties at checkout, but customs duties
+          You don`t need to pay customs duties at checkout, but customs duties
           may be incurred along the way, depending on your local customs policy,
           which we cannot determine.
         </p>
@@ -45,7 +45,7 @@ const faqItems: FaqItem[] = [
     answer: (
       <p>
         You can track your order using the tracking link sent to your email
-        after the package is shipped. If you haven't received one, please check
+        after the package is shipped. If you haven`t received one, please check
         your spam folder or contact us directly.
       </p>
     ),
@@ -54,7 +54,7 @@ const faqItems: FaqItem[] = [
     question: "Can I change or cancel my order?",
     answer: (
       <p>
-        If your order hasn't been shipped yet, you can contact us to modify or
+        If your order hasn`t been shipped yet, you can contact us to modify or
         cancel it. Once shipped, cancellations or changes are not possible.
       </p>
     ),
