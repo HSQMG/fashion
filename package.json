@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "next lint",
     "predeloy": "npm run build",
-    "deloy": "gh-pages -d build"
+    "export": "next export",
+    "deploy": "next build && next export && gh-pages -d out"
   },
   "dependencies": {
     "lucide-react": "^0.536.0",
@@ -25,6 +26,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.4.5",
+    "gh-pages": "^6.3.0",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
