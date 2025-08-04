@@ -82,7 +82,7 @@ export default function FaqSection() {
         {faqItems.map((item, index) => (
           <div key={index} className="border border-gray-200">
             <details className="group">
-              <summary className="font-medium cursor-pointer px-4 py-3 list-none marker:content-['▶'] group-open:marker:content-['▼']">
+              <summary className="font-bold cursor-pointer px-4 py-3 list-none marker:content-['▶'] group-open:marker:content-['▼']">
                 {item.question}
               </summary>
               <div className="px-4 pb-4 text-gray-700">{item.answer}</div>
